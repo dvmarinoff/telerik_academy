@@ -1,0 +1,131 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Project One</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <header>
+        <img class="htmlLogo" src="images/html_logo.jpeg" alt="HTML Logo">
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./projectOne.html">Project One</a></li>
+                <li><a href="./projectTwo.html">Project Two</a></li>
+                <li><a href="./projectThree.html">Project Three</a></li>
+                <li><a href="./projectFour.html">Project Four</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">    
+        <div class="banner">
+            <h1>HTML Homework: Project One</h1>
+        </div>  
+        <section class="mainContent"> 
+            <article>
+                <form id="signInForm" action="" method="POST">
+                    <table id="signInTable">
+                        <tfoot>
+                            <td colspan="2">
+                                <input type="submit" name="submit" value="Submit">
+                                <input type="reset" name="reset" value="Clear This Form"> 
+                            </td>
+                        </tfoot>
+                        <tbody>
+                        <tr>
+                            <td class="signInColLeft"><label for="lastName">Last Name</label></td>
+                            <td><input type="text" name="lastName" placeholder="Enter your last name"></td>
+                        </tr>
+                        <tr>
+                            <td class="signInColLeft"><label for="firstName">First Name</label></td>
+                            <td><input type="text" name="firstName" placeholder="Enter your last name"></td>
+                        </tr>
+                        <tr>
+                            <td class="signInColLeft"><label for="adress">Address</label></td>
+                            <td><textarea name="address" id="" cols="30" rows="5"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td class="signInColLeft"><label for="city">City</label></td>
+                            <td>
+                                <input type="text" name="city" placeholder="Your city">
+                                <label for="state">State</label>
+                                <input type="text" name="state">
+                            </td> 
+                        </tr>
+                        <tr>
+                            <td class="signInColLeft"><label for="zipcode">ZIP/Postal Code</label></td>
+                            <td><input type="text" name="zipcode" placeholder="1000"></td>
+                        </tr>
+                        <tr>
+                            <td class="signInColLeft"><label for="country">Country</label></td>
+                            <td>
+                                <select name="country" id="">
+                                    <option value="bulgaria">Bulgaria</option>
+                                    <option value="greece">Greece</option>
+                                    <option value="romania">Romania</option>
+                                    <option value="otherEu">Other EU</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="signInColLeft"><label for="phone">Phone(country code, area code, number)</label></td>
+                            <td>+(<input type="number" name="countryCode" class="numberInputM" placeholder="359">)
+                            <input type="number" name="areaCode" class="numberInputM">
+                            <input type="tel" name="number"></td>
+                        </tr>
+                        <tr>
+                            <td class="signInColLeft"><label for="email">Email</label></td>
+                            <td><input type="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td class="signInColLeft"><label for="birthDate">Birth date</label></td>
+                            <td>
+                                Month<input type="text" name="month" class="numberInputS">
+                                Day<input type="text" name="day" class="numberInputS">
+                                Year(4 digit)<input type="text" name="year">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="signInColLeft"><label for="gender">Gender</label></td>
+                            <td>
+                                <select name="gender" id="gender">
+                                    <option value="0">Male</option>
+                                    <option value="1">Female</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="signInColLeft"><label for="startingDate">Starrting date</label></td>
+                            <td>
+                            <input type="radio" name="spring"> Spring 2006
+                            <input type="radio" name="summer"> Summer 2006
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="signInColLeft"><label for="commentsQuestions">Comments/Questions</label></td>
+                            <td><textarea name="comments" id="commentsArea" cols="30" rows="5"></textarea></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                 </form>
+            </article>
+        </section>
+    </div>
+</body>
+<footer>
+    <div class="topFooter">
+        <ul class="footerNav">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./projectOne.html">Project One</a></li>
+            <li><a href="./projectTwo.html">Project Two</a></li>
+            <li><a href="./projectThree.html">Project Three</a></li>
+            <li><a href="./projectFour.html">Project Four</a></li>
+        </ul>
+    </div>
+    <div class="bottomFooter">
+        <p class="moto">Code / Beer / Design</p>
+        <hr>
+        <p>Copyright&copy; All Rights Reserved ;) </p>
+    </div>
+</footer>
+</html>

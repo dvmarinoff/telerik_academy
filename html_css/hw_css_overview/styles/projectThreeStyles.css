@@ -1,0 +1,51 @@
+html{
+    background-color: #bbb;
+}
+body{
+    font-size: 1rem;
+}
+body > header{
+    text-align: center;
+}
+h1{
+    color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #000;
+}
+li a{   
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+li:last-child a{
+    text-decoration: underline;
+}
+li a:hover{
+    background-color: #ccc;
+}
+article h1 {
+    font-size:1.6rem;
+}
+article footer{
+    font-size:0.8rem;
+}
+body > footer {
+    text-align:center
+}
+#back{
+    color: #279;
+    background-color: #000; 
+    width: 8rem;
+    height: 2rem;
+    border-style: none;
+}
+#back:hover{
+    background-color: #111;
+}

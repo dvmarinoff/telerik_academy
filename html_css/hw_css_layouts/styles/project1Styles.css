@@ -1,0 +1,25 @@
+#wrapper{
+    width: 15rem;
+    margin: 2rem;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#mainList ul{
+    display: none;
+}
+#mainList a{
+    color: #000;
+}
+#mainList li:hover > ul{
+    display: block;
+}
+#mainList ul a{
+    color: #ccc;
+}
+#mainList a:hover{
+    text-decoration: underline;
+}

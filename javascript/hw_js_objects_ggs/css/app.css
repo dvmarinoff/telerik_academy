@@ -1,0 +1,303 @@
+/* Base ============================================ */
+
+html{
+    width: 100%;
+    height: 100%
+}
+body{
+    font-size: 62.5%;
+    font-family: 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', Verdana, arial, helvetica, helve, sans-serif; 	
+    text-align: center;
+    background-image: url(../images/grid_gray_background.png);
+    background-repeat: repeat;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+/* Grid System ===================================== */
+	
+.span_3_of_3 {
+	width: 100%; 
+}
+
+.span_2_of_3 {
+	width: 66.13%; 
+}
+
+.span_1_of_3 {
+	width: 31.33%;
+    margin: 1%;
+}
+
+/* Layout ============================================= */
+
+.maincontent .col{
+    display: block;
+    float: left;
+    min-height: 7rem;
+}
+
+.maincontent{
+    width: 92%;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.tile{
+   min-height: 20rem;
+   padding: 1rem; 
+}
+
+/* Header =========================================== */
+.heading{
+    height: 5rem;
+    padding: 1.5rem 0;
+}
+header{
+    width: 100%;
+    min-height: 5rem;
+    font-size: 1.4rem;
+    background-color: rgba(44, 62, 80, 0.75);
+    z-index: 9999;
+}
+.logo{
+    height: 5rem;
+    float: left;
+    font-size: 1.2rem;
+    padding: 1.7rem;
+    color: #eee;
+}
+.logo:hover{
+    color: #18bc9c;
+}
+
+/* Nav ============================================= */
+nav{
+    font-size: 1.4rem;
+}
+
+nav > ul{
+    min-height: 5rem;
+}
+.top-ul{
+
+}
+nav ul li{
+    position: relative;
+    text-align: center;
+}
+
+.top-ul > li{
+    display: block;
+    float: left;
+}
+
+nav a{
+    display: block;
+    padding: 1.7rem;
+    color: #eee;
+}
+
+.caret{
+    float: right;
+    display: block;
+    width: 0; 
+    height: 0;
+    margin: 0.7rem .4rem;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;	
+	border-top: 6px solid #fff;
+}
+
+.drop-down-ul{
+    display: none;
+    position: absolute;
+    top: 5.05rem;
+    width: 15rem;
+    padding: .5rem 0;
+    background-color:  #eee;
+    box-shadow: 0 0 .3em 0 #999;
+    z-index: 9;
+}
+
+.drop-down-ul li{
+    display: block;
+    font-size: 1rem;
+}
+.drop-down-ul a{
+    padding: 1rem; /* control the height of the dropdown  <a> from here */
+    color: #999;
+}
+
+.top-ul a:hover{
+    color: #18bc9c;
+}
+
+.drop-down-ul a:hover{
+    color: #eee;
+    background-color: rgba(44, 62, 80, 0.75);
+    box-shadow: 0 0 .1em 0 #999;
+}
+
+.top-ul li:hover .drop-down-ul{
+    display: block;
+}
+
+/* Main Content ====================================== */
+.carousel{
+    width: 100%;
+    height: 20%;
+    padding: 4rem 0;
+    background-color: rgba(163, 167, 168, 0.1);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.tile{
+    font-size: 100%;
+    color: #333;   /* or: #2c3e50; */
+    background-color: rgba(50, 150, 200, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 0 .3em 0 #999;
+}
+
+.tile:hover{
+    box-shadow: 0 0 .7em 0 #999;
+}
+
+.tile p{
+    margin: .5rem 0;
+}
+
+.tile ul{
+    margin: .5rem;
+}
+
+.tile li{
+    font-size: .9rem;
+}
+
+h1{
+    margin: 0;
+    font-size: 2rem;
+    color: #999;
+}
+
+h2{
+    color: #333;
+}
+
+p, li{
+    text-align: left;
+}
+
+/* Footer ============================================= */
+
+footer{
+    font-size: .8rem;
+    height: 4rem;
+    color: #333;
+    background-color: rgba(163, 167, 168, 0.1);
+}
+
+/* Media Quaries ====================================== */
+
+@media only screen and (max-width: 768px) {
+    .col{
+        clear: both;
+        width: 100%; 
+    }
+    
+    li{
+        width: 10rem;
+    }
+    
+    .drop-down-ul li{
+       float: left;
+    }
+    .drop-down-ul {
+        top: 5.1rem;
+        left: -12rem;
+        width: 21rem;
+        height: 15rem;
+        padding: .5rem;
+    }
+    
+    .top-ul li:hover.drop-down-ul{
+        display: block;      
+    }
+}
+
+@media only screen and (max-width: 480px) {
+	.span_3_of_3 {
+		width: 100%; 
+	}
+	.span_2_of_3 {
+		width: 100%; 
+	}
+	.span_1_of_3 {
+		width: 100%;
+	}
+    
+    .top-ul{
+        padding: 0;
+        width: 100%;
+    }
+    
+    .top-ul li{
+        width: 100%;
+        height: 5rem;
+    }
+    
+    .logo{
+        display: block;
+        width: 100%;
+    }
+    
+    .drop-down-ul{
+        position: relative;
+        top: .1rem;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+    
+    .drop-down-ul li{
+        float: none;
+    }
+    
+    .top-ul li:hover .drop-down-ul{
+        display: block;
+    }
+    
+    .caret{
+        margin: .7rem 0rem;
+    }
+}
+
+
+/* Clear Fix ======================================= */
+
+.group{
+    clear: both;
+}
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+
+.group:after {
+    clear:both;
+}
+
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+
+
+

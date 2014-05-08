@@ -1,0 +1,65 @@
+html, body, section, article, h3, p, button{
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+}
+header{
+    font-size: 1.5rem;
+    font-family: Arial;
+    font-weight: normal;
+}
+#wrapper{
+    width: 27rem;
+    height: 40rem;
+    margin: 2rem;
+    padding: 0 .5rem 0 1.5rem; 
+    background-color: #bbb;
+}
+section{
+    width: 24rem;
+    height: 90rem;
+}
+article{
+    overflow: auto;
+    width: 25rem;
+    padding: 1rem;
+    height: 10rem;
+    margin-top: 2rem;
+    background-color: #fff;
+    border: 1px solid #999;
+}
+img{
+    float: left;
+    width: 9rem;
+    height: 6rem;
+    margin-right: 1rem;
+}
+form{
+    float: right;
+    margin: 1rem 0 0 0;
+}
+button{
+    width: 3.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    border-top: 2px solid #E38382;
+            border-right: 2px solid #650000;
+            border-bottom: 2px solid #650000;
+            border-left: 2px solid #9C2829;
+     background: #f00;
+            box-shadow: inset 15px 0 0 #8A0000;
+}
+.listen{
+    width: 4rem;
+}
+span{
+    font-weight: bold;
+}

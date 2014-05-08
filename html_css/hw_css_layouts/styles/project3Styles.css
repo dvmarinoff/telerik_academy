@@ -1,0 +1,75 @@
+html, body, header, section, article, h1, p, button, input{
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+}
+#wrapper{
+    width: 40rem;
+    margin: 1rem auto;
+    background: #3B3B3B;
+    color: #A9A9A9;
+}
+header{
+    width: 40rem;
+    height: 5rem;
+    padding: 1rem;
+    background: 
+    -webkit-radial-gradient(ellipse farthest-corner,
+    transparent 0%, #343434 60%) no-repeat 55% 155%;
+}
+article{
+    width: 40rem;
+    height: 14rem;
+}
+
+img{
+    display: inline-block;
+    vertical-align: top;
+    height: 3.5rem;
+}
+form{
+    display: inline-block;
+    vertical-align: top;
+    margin: 1rem 0 0 0;
+}
+input, label, button{
+display: inline-block;
+}
+label{
+    color: #fff;
+    font-size: 18px;
+}
+input{
+    width: 10rem;
+}
+
+button{
+    margin-top: -3px;
+    padding: 5px 15px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: rgba(229, 110, 110, .9);
+    box-shadow: inset 0px -15px 5px #EC0B0F;
+    color: #fff;
+}
+article{
+    padding: 0 1rem;
+}
+h1 {
+    margin: 1rem 0;
+    color: #F8D612;
+    text-transform: lowercase;
+    font-weight: normal;
+}
+strong {
+    color: #F8F8F8;
+    font-weight: normal;
+}
