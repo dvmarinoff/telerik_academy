@@ -1,0 +1,57 @@
+/*Base ======================================= */
+
+html{
+    width: 100%;
+    height: 100%
+}
+body{
+    font-size: 62.5%;
+    font-family: 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', Verdana, arial, helvetica, helve, sans-serif; 	
+    text-align: center;
+    background-image: url(../images/gray_jean_background.png);
+    background-repeat: repeat;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+/*Gallery ===================================== */
+#display{
+    float: left;
+    width: 75%;
+    height: 30rem;
+    margin: .5rem;
+    overflow: hidden;
+    border: 8px solid rgba(99,99,99, .1);
+    box-shadow: 0 0 .1em 0 #999;
+    border-radius: 4px;
+}
+
+#slider{
+    position: relative;
+}
+
+#slider img{
+    width: 100%;
+    height: 30rem;
+}
+
+#image-selector{
+    float: right;
+    width: 20%;
+    height: auto;
+    margin: 1%;
+}
+
+#image-selector img{
+    display: block;
+    width: 100%;
+    height: 7rem;
+    opacity: .4;
+}
+
+#image-selector img:hover{
+    box-shadow: 0 0 .5em 0 #999;
+}
+
