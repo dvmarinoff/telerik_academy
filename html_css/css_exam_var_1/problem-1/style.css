@@ -1,0 +1,121 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*base*/
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+/*pre*/ 
+html, body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #212121;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+    background-color: #fff;
+}
+
+.clear {
+	clear: both;
+}
+
+/*main*/
+/*header*/
+header{
+    width: inherit;
+    height: 4rem;
+    padding: 0rem;
+    background-image: url(images/header-bg.png);
+}
+header h1{
+    float:left;
+    display: inline-block;
+    margin: 1rem;
+    font-size: 16px;
+    color: #575e5b;
+}
+nav{
+    float:right;
+    width: 30rem;
+    height: 2rem;
+    margin: 1rem 0 0 0;
+}
+nav ul{
+    width: 30rem;
+    height: 2rem;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    vertical-align:baseline;
+    margin:  0 1rem;
+    font-size: 14px;
+    color: #575e5b;
+}
+.claer{
+    clear: both;
+}
+/*search bar*/
+#searchBar{
+    width: 95rem;
+    height: 3rem;
+    margin: auto;
+    padding: .5rem;
+    background-color: #000;
+}
+#archives{
+    float: left;
+    color: #fff;
+}
+#searchBar a{
+    font-size: 14px;
+    color: #fff;
+}
+#search{
+    float: right;
+}
+
+/*content*/
+#content{
+    width: 95rem;
+    margin: auto;
+    padding-bottom: 1rem;
+    font-size: 14px;
+}
+#content > h1{
+    margin: 1rem 0;
+    font-size: 16px;
+    color: #575e5b;
+}
+article p{
+    margin: 1rem 0;
+    color: #575e5b;
+}
+
+
+
+
+
