@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JS:</title>
+
+        <!--Style Sheets-->
+        <link rel="stylesheet" href="./styles/reset.css">
+        <link rel="stylesheet" href="./styles/default.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <!--Header-->
+            <header class="section group">
+                <div class="logo">
+                    Code Design
+                </div>             
+                <nav>
+                    <ul class="top-ul">
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="#">Projects<b class="caret"></b></a>
+                            <ul class="drop-down-ul">
+                                <li><a href="#one">Project One</a></li>
+                                <li><a href="#two">Project Two</a></li>
+                                <li><a href="#three">Project Three</a></li>
+                                <li><a href="#four">Project Four</a></li>
+                                <li><a href="#five">Project Five</a></li>
+                                <li><a href="#six">Project Six</a></li>
+                                <li><a href="#seven">Project Seven</a></li>
+                                <li><a href="#eight">Project Eight</a></li>
+                                <li><a href="#nine">Project Nine</a></li>
+                                <li><a href="#ten">Project Ten</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="carousel">
+                <h1>JS Homework: </h1>
+            </div>  
+            <!--Project 1 start-->
+            <div class="project">
+                <h3 id="one">One</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, modi atque accusamus quisquam ducimus impedit unde cum quaerat iusto ipsa possimus maiores expedita ea tempore consectetur cumque cupiditate numquam quos.</p>
+                <div class="row">
+                    <label for="input-1-1">Input:</label>
+                    <input type="text" id="input-1-1" name="input-1-1" placeholder="Enter...">
+                </div>
+                <div class="row">
+                    <button id="btn-1-submit">Submit</button>
+                </div>            
+                <div id="result-1" class="result"></div>              
+                <p><a href="./js/project-1.js">JS code</a></p>
+            </div>
+
+            <!--Project 2 start-->
+            <div class="project">
+                <h3 id="two">Two</h3>
+                <p></p>
+                <div class="row">
+                    <label for="input-2-1"></label>
+                    <input type="text" id="input-2-1" name="input-2-1" placeholder="Enter...">
+                </div>
+                <div class="row">
+                    <button id="btn-2-submit">Submit</button>
+                </div>
+                <div id="result-2" class="result"></div>                      
+                <p><a href="./js/project-2.js">JS code</a></p>
+            </div>
+
+            <!--Project 3 start-->
+            <div class="project">
+                <h3 id="three">Three</h3>
+                <p></p>              
+                <div class="row">
+                    <label for="input-3-1"></label>
+                    <input type="text" id="input-3-1" name="input-3-1" placeholder="Enter...">
+                </div>
+                <div class="row">
+                    <button id="btn-3-submit">Submit</button>
+                </div>                               
+                <div id="result-3" class="result"></div>              
+                <p><a href="./js/project-3.js">JS code</a></p>
+            </div>
+
+            <!--Project 4 start-->
+            <div class="project">
+                <h3 id="four">Four</h3>
+                <p></p> 
+                <div class="row">
+                    <label for="input-4-1"></label>
+                    <input type="text" id="input-4-1" name="input-4-1" placeholder="Enter...">
+                </div>
+                <div class="row">
+                    <button id="btn-4-submit">Submit</button>
+                </div>                
+                <div id="result-4" class="result"></div>              
+                <p><a href="./js/project-4.js">JS code</a></p>
+            </div>
+            
+            <!--Project 5 start-->
+            <div class="project">
+                <h3 id="five">Five</h3>
+                <p></p> 
+                <div class="row">
+                    <label for="input-5-1"></label>
+                    <input type="text" id="input-5-1" name="input-5-1" placeholder="Enter...">
+                </div>
+                <div class="row">
+                    <button id="btn-5-submit">Submit</button>
+                </div>                
+                <div id="result-5" class="result"></div>              
+                <p><a href="./js/project-5.js">JS code</a></p>
+            </div>
+            
+            <!--Project 6 start-->
+            <div class="project">
+                <h3 id="six">Six</h3>
+                <p></p> 
+                <div class="row">
+                    <label for="input-6-1"></label>
+                    <input type="text" id="input-6-1" name="input-6-1" placeholder="Enter...">
+                </div>
+                <div class="row">
+                    <button id="btn-6-submit">Submit</button>
+                </div>                
+                <div id="result-6" class="result"></div>              
+                <p><a href="./js/project-6.js">JS code</a></p>
+            </div>
+            
+            <!--Project 7 start-->
+            <div class="project">
+                <h3 id="seven">Seven</h3>
+                <p></p> 
+                <div class="row">
+                    <label for="input-7-1"></label>
+                    <input type="text" id="input-7-1" name="input-7-1" placeholder="Enter...">
+                </div>
+                <div class="row">
+                    <button id="btn-7-submit">Submit</button>
+                </div>                
+                <div id="result-7" class="result"></div>              
+                <p><a href="./js/project-7.js">JS code</a></p>
+            </div>
+            
+            <!--Project 8 start-->
+            <div class="project">
+                <h3 id="eight">Eight</h3>
+                <p></p> 
+                <div class="row">
+                    <label for="input-8-1"></label>
+                    <input type="text" id="input-8-1" name="input-8-1" placeholder="Enter...">
+                </div>
+                <div class="row">
+                    <button id="btn-8-submit">Submit</button>
+                </div>                
+                <div id="result-8" class="result"></div>              
+                <p><a href="./js/project-8.js">JS code</a></p>
+            </div>
+            
+            <!--Project 9 start-->
+            <div class="project">
+                <h3 id="nine">Nine</h3>
+                <p></p> 
+                <div class="row">
+                    <label for="input-9-1"></label>
+                    <input type="text" id="input-9-1" name="input-9-1" placeholder="Enter...">
+                </div>
+                <div class="row">
+                    <button id="btn-9-submit">Submit</button>
+                </div>                
+                <div id="result-9" class="result"></div>              
+                <p><a href="./js/project-9.js">JS code</a></p>
+            </div>
+            
+            <!--Project 10 start-->
+            <div class="project">
+                <h3 id="ten">Ten</h3>
+                <p></p> 
+                <div class="row">
+                    <label for="input-10-1"></label>
+                    <input type="text" id="input-10-1" name="input-10-1" placeholder="Enter...">
+                </div>
+                <div class="row">
+                    <button id="btn-10-submit">Submit</button>
+                </div>                
+                <div id="result-10" class="result"></div>              
+                <p><a href="./js/project-10.js">JS code</a></p>
+            </div>
+            
+            <!--Footer-->
+            <footer>
+                <div>Author: CBD. Year: 2014. Licence MIT.</div>
+            </footer>
+        </div>
+
+        <!--Scripts-->
+        <script src="./lib/jquery-1.7.2.min.js"></script>
+        <!--scroll may need adjustment-->
+        <script src="./js/scroll.js"></script>
+        <script src="./js/project-1.js"></script>
+        <script src="./js/project-2.js"></script>
+        <script src="./js/project-3.js"></script>
+        <script src="./js/project-4.js"></script>
+        <script src="./js/project-5.js"></script>
+        <script src="./js/project-6.js"></script>
+        <script src="./js/project-7.js"></script>
+        <script src="./js/project-8.js"></script>
+        <script src="./js/project-9.js"></script>
+        <script src="./js/project-10.js"></script>
+    </body>
+</html>
