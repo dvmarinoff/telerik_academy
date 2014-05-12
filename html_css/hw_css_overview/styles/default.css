@@ -17,24 +17,22 @@ html{
 }
 body{
     font-size: 62.5%; 
-    font-family: sans; 
+    font-family: 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', Verdana, arial, helvetica, helve, sans-serif;  
 }
 /*Header*/
 body{
-    width: inherit;
     height: 58rem;
     background-color: #000;
 }
 #backgroundHeaderImage{
     position: absolute;
-    width: inherit;
+    width: 100%;
     height: 55rem;
     z-index: 0;
 }
 header{
     position: fixed;
-    padding: 0rem 0 0 0rem;
-    width: inherit;
+    width: 100%;
     height: 4rem;
     background-color: rgba(42, 100, 120, 0.2);
     z-index: 9999;
@@ -42,34 +40,25 @@ header{
 h1{
     font-size: 3rem;
     float: left;
-    margin: 0.1rem 0 0 4rem;
-    width: auto;
+    margin: .1rem 0 0 4rem;
     text-align: center;
     color: #fff;
 }
 .mainNav ul{
     float: right;
-    width: auto;
     margin-right: 4rem;
     height: 4rem;
-    z-index: 9999;
 }
 .mainNav ul li{
     display: inline-block;
     height: 4rem;
-    width: auto;
-    list-style-type: none;
-    z-index: 9999;
 }
 .mainNav a{
     font-size: 1.8rem;
     text-align: center;
     line-height: 4rem;
-    width: auto;
     padding: 1rem;
     color: #fff;
-    text-decoration: none;
-    z-index: 9999;
 }
 .mainNav a:hover{
     background-color: rgba(32, 100, 170, 0.4);
@@ -164,12 +153,11 @@ section{
 .aboutContent{
     width: 25rem;
     margin: 0 auto;
-    height: auto;
     padding: 1rem;
     background-color: rgba(32, 32, 32, 0.2);
 }
 #aboutSection{
-    width: inherit;
+    width: 100%;
 }
 #aboutSection a{
     color: #279;
@@ -178,7 +166,7 @@ section{
     color: #279;
 }
 .aboutContent ul{
-	margin: 0.5rem ;
+	margin: 0.5rem;
 }
 input[type="submit"]{
 	display: block;
@@ -197,7 +185,7 @@ textarea{
 }
 /*Project*/
 .Section{
-    width: inherit;
+    width: 100%;
 }
 .Section h3{
     text-align: center;
@@ -205,7 +193,6 @@ textarea{
 }
 .projectContent{
     width: 60rem;
-    height: auto;
     margin: 0 auto;
     padding: 1rem;
     background-color: rgba(32, 32, 32, 0.2);
@@ -275,7 +262,12 @@ textarea{
     background-color: #e9f0d5;
 }
 #projectTwo thead{
-    background-color: #00cb00;
+    background: rgb(143,196,0); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(143,196,0,1) 0%, rgba(143,196,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(143,196,0,1)), color-stop(100%,rgba(143,196,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(143,196,0,1) 0%,rgba(143,196,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(143,196,0,1) 0%,rgba(143,196,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(143,196,0,1) 0%,rgba(143,196,0,1) 100%); /* IE10+ */
     border-bottom: 2px solid #333;
 }
 #projectTwo thead td{
