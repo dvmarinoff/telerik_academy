@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JS: Functions</title>
+
+        <!--Style Sheets-->
+        <link rel="stylesheet" href="./styles/reset.css">
+        <link rel="stylesheet" href="./styles/default.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <!--Header-->
+            <header class="section group">
+                <div class="logo">
+                    Code Design
+                </div>             
+                <nav>
+                    <ul class="top-ul">
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="#">Projects<b class="caret"></b></a>
+                            <ul class="drop-down-ul">
+                                <li><a href="#one">Project One</a></li>
+                                <li><a href="#two">Project Two</a></li>
+                                <li><a href="#three">Project Three</a></li>
+                                <li><a href="#four">Project Four</a></li>
+                                <li><a href="#five">Project Five</a></li>
+                                <li><a href="#six">Project Six</a></li>
+                                <li><a href="#seven">Project Seven</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="carousel">
+                <h1>JS Homework: </h1>
+            </div>  
+            <!--Project 1 start-->
+            <div class="project">
+                <h3 id="one">One</h3>
+                <p>Write a function that returns the last digit of given
+                    integer as an English word. Examples: 512  "two",
+                    1024  "four", 12309  "nine"</p>
+                <div class="row">
+                    <label for="input-1-1">Number:</label>
+                    <input type="text" id="input-1-1" name="input-1-1" placeholder="Enter number...">
+                </div>
+                <div class="row">
+                    <button id="btn-1-submit">Submit</button>
+                </div>            
+                <textarea id="result-1" class="result">Result:</textarea>              
+                <p><a href="./js/project-1.js">JS code</a></p>
+            </div>
+
+            <!--Project 2 start-->
+            <div class="project">
+                <h3 id="two">Two</h3>
+                <p>Write a function that reverses the digits of given
+                    decimal number. Example: 256  652</p>
+                <div class="row">
+                    <label for="input-2-1">Number:</label>
+                    <input type="text" id="input-2-1" name="input-2-1" placeholder="Enter number...">
+                </div>
+                <div class="row">
+                    <button id="btn-2-submit">Submit</button>
+                </div>
+                <textarea id="result-2" class="result"></textarea>                      
+                <p><a href="./js/project-2.js">JS code</a></p>
+            </div>
+
+            <!--Project 3 start-->
+            <div class="project">
+                <h3 id="three">Three</h3>
+                <p>Write a function that finds all the occurrences of
+                    word in a text
+                     The search can case sensitive or case insensitive
+                     Use function overloading</p>              
+                <div class="row">
+                    <label for="input-3-1">Text:</label>
+                    <input type="text" id="input-3-1" name="input-3-1" placeholder="Enter some text...">
+                </div>
+                <div class="row">
+                    <label for="input-3-2">Word:</label>
+                    <input type="text" id="input-3-2" name="input-3-2" placeholder="Enter some word...">
+                </div>
+                <div class="row">
+                    <input type="checkbox" id="sensitive" name="sensitive">
+                    Case sensitivity
+                </div>
+                <div class="row">
+                    <button id="btn-3-submit">Submit</button>
+                </div>                               
+                <textarea id="result-3" class="result"></textarea>              
+                <p><a href="./js/project-3.js">JS code</a></p>
+            </div>
+
+            <!--Project 4 start-->
+            <div class="project">
+                <h3 id="four">Four</h3>
+                <p>Write a function to count the number of divs on the
+                    web page</p> 
+                <div class="row">
+                </div>
+                <div class="row">
+                    <button id="btn-4-submit">Count</button>
+                </div>                
+                <textarea id="result-4" class="result"></textarea>              
+                <p><a href="./js/project-4.js">JS code</a></p>
+            </div>
+            
+            <!--Project 5 start-->
+            <div class="project">
+                <h3 id="five">Five</h3>
+                <p>Write a function that counts how many times given
+                    number appears in given array. Write a test function
+                    to check if the function is working correctly.</p> 
+                <div class="row">
+                    <label for="input-5-1">Number:</label>
+                    <input type="text" id="input-5-1" name="input-5-1" placeholder="Enter number...">
+                </div>
+                <div class="row">
+                    <label for="input-5-2">Number:</label>
+                    <input type="text" id="input-5-2" name="input-5-2" placeholder="Enter array member...">
+                </div>
+                <div class="row">
+                    <div id="result-5-2">Array: </div>
+                </div>
+                <div class="row">
+                    <button id="btn-5-add">Add</button>
+                    <button id="btn-5-submit">Submit</button>
+                </div>                
+                <textarea id="result-5" class="result"></textarea>              
+                <p><a href="./js/project-5.js">JS code</a></p>
+            </div>
+            
+            <!--Project 6 start-->
+            <div class="project">
+                <h3 id="six">Six</h3>
+                <p>Write a function that checks if the element at given
+                    position in given array of integers is bigger than its
+                    two neighbors (when such exist).</p> 
+                    <div class="row">
+                        <div>array = [1, 2, 3, 4, 1, 2, 4, 2, 3, 1, 4, 2, 3, 2];</div>
+                    </div>
+                <div class="row">
+                    <label for="input-6-1">Position:</label>
+                    <input type="text" id="input-6-1" name="input-6-1" placeholder="Enter position...">
+                </div>
+                <div class="row">
+                    <button id="btn-6-submit">Submit</button>
+                </div>                
+                <textarea  id="result-6" class="result"></textarea >              
+                <p><a href="./js/project-6.js">JS code</a></p>
+            </div>
+            
+            <!--Project 7 start-->
+            <div class="project">
+                <h3 id="seven">Seven</h3>
+                <p>Write a function that returns the index of the first
+                    element in array that is bigger than its neighbors, or
+                    -1, if there’s no such element.
+                     Use the function from the previous exercise.</p> 
+                <div class="row">
+                    <div>array = [1, 2, 3, 4, 1, 2, 4, 2, 3, 1, 4, 2, 3, 2];</div>
+                </div>
+                <div class="row">
+                    <button id="btn-7-submit">Run</button>
+                </div>                
+                <textarea  id="result-7" class="result"></textarea >              
+                <p><a href="./js/project-7.js">JS code</a></p>
+            </div>
+            
+            <!--Footer-->
+            <footer>
+                <div>Author: CBD. Year: 2014. Licence MIT.</div>
+            </footer>
+        </div>
+
+        <!--Scripts-->
+        <script src="./lib/jquery-1.7.2.min.js"></script>
+        <!--scroll may need adjustment-->
+        <script src="./js/scroll.js"></script>
+        <script src="./js/project-1.js"></script>
+        <script src="./js/project-2.js"></script>
+        <script src="./js/project-3.js"></script>
+        <script src="./js/project-4.js"></script>
+        <script src="./js/project-5.js"></script>
+        <script src="./js/project-6.js"></script>
+        <script src="./js/project-7.js"></script>
+    </body>
+</html>
