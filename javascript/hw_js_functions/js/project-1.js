@@ -1,20 +1,30 @@
-(function() {
+(function () {
     'use strict';
     var printResult;
     
     // uses module to get the last digit and transletes it 
     function convertLastDigit(number) {
         switch (number % 10) {
-            case 0: return "zero";
-            case 1: return "one";
-            case 2: return "two";
-            case 3: return "three";
-            case 4: return "four";
-            case 5: return "five";
-            case 6: return "six";
-            case 7: return "seven";
-            case 8: return "eight";
-            case 9: return "nine";
+            case 0: 
+                return "zero";
+            case 1: 
+                return "one";
+            case 2: 
+                return "two";
+            case 3: 
+                return "three";
+            case 4: 
+                return "four";
+            case 5: 
+                return "five";
+            case 6: 
+                return "six";
+            case 7: 
+                return "seven";
+            case 8: 
+                return "eight";
+            case 9: 
+                return "nine";
             default: return "";
         }
     }
@@ -24,7 +34,7 @@
         var number, result;
         
         number = document.getElementById('input-1-1').value;
-        number = parseInt(number);
+        number = parseInt(number, 10);
         
         result = convertLastDigit(number);
         
@@ -34,4 +44,4 @@
     // Event listener
     document.getElementById('btn-1-submit').addEventListener('click', printResult);
     
-} ());
+}());

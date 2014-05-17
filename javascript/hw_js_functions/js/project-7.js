@@ -1,4 +1,4 @@
-(function() {
+(function () {
     'use strict';
 
     var printResult;
@@ -41,4 +41,4 @@
     // Event listener
     document.getElementById('btn-7-submit').addEventListener('click', printResult);
 
-} ());
+}());

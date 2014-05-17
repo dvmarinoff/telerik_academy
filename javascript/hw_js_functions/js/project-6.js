@@ -27,7 +27,7 @@
         array = [1, 2, 3, 4, 1, 2, 4, 2, 3, 1, 4, 2, 3, 2];
         
         pos = document.getElementById('input-6-1').value;
-        pos = parseInt(pos);
+        pos = parseInt(pos, 10);
         
         result = biggerThanNeighbours(array, pos);
 
