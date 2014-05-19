@@ -1,0 +1,105 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*base*/
+html{
+    font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+#wrapper{
+    width: 690px;
+    height: 100%;
+    padding: 5rem;
+}
+
+/*main*/ 
+.menu{
+    position: relative;
+    width: 50rem;
+    height: auto;
+}
+/* from: #29d8f1     to: #7995e2     with reddish*/
+.menu > li{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 1rem 2rem;
+    border: 1px solid #000;
+    border-radius: .5em;
+    background: #29d8f1;
+    background: -webkit-linear-gradient(top, #29d8f1 50%, #7995e2 100%);
+    background: -moz-linear-gradient(top, #29d8f1 50%, #7995e2 100%); 
+    background: linear-gradient(to top, #29d8f1 50%, #7995e2c 100%);
+    
+}
+.menu li a{
+    color: #00f;
+}
+
+/* from: #a1d8ef     to: #fcfeff*/
+.content{
+    display: none;
+    position: absolute;
+    top: 6rem; /* original: 3rem, must be over the bottom of upper li */
+    margin-left: -2.5rem;
+    padding: 1rem;
+    border: 1px solid #000;
+    border-radius: .5em;
+    background: -webkit-linear-gradient(top, #fcfeff 30%, #a1d8ef 90%);
+    background: -moz-linear-gradient(top, #fcfeff 30%, #a1d8ef 90%); 
+    background: linear-gradient(to bottom, #fcfeff 30%, #a1d8ef 90%);
+}
+.menu > li:hover{
+    padding: 1.5rem 4rem;
+}
+.menu li:hover .content{
+    display:block;
+}
+
+/*test display
+.menu li:nth-child(1) .content{
+    display: block;
+}
+*/
+
+.content h3{
+    text-decoration: underline;
+    margin: 1rem;
+}
+.content span{
+    display: inline-block;
+    margin: 0;
+}
+.bold{
+    font-weight: bold;
+}
+.content p{
+    display: block;
+    margin: 2rem 1rem 1.5rem 1rem;
+}
+.content ul{
+    list-style-type: square;
+    margin: 2rem 0rem 0 1rem;
+}
+.content ul li{
+    margin: .1rem;
+}
