@@ -6,27 +6,37 @@ devApp.controller('customersCtrl', ['$scope',
 				"lastname": "Osmani",
 				"city": "New York",
 				"joined": "Mar 25, 2001",
-				"orders": ""
+				"orders": "",
+				"orderTotal": 100.10
 			}, {
 				"firstname": "John",
 				"lastname": "Crockford",
 				"city": "LA",
 				"joined": "May 10, 1995",
-				"orders": ""
+				"orders": "",
+				"orderTotal": 120.30
 			}, {
 				"firstname": "Paul",
 				"lastname": "Irish",
 				"city": "New York",
 				"joined": "Mar 25, 2001",
-				"orders": ""
+				"orders": "",
+				"orderTotal": 190.40
 			}, {
 				"firstname": "Jane",
 				"lastname": "Fabro",
-				"city": "Seatle",
+				"city": "Seattle",
 				"joined": "Oct 28, 2004",
-				"orders": ""
+				"orders": "",
+				"orderTotal": 180.80
 			},
 
 		]; // array users end
 	} // function end
+]);
+
+devApp.controller('OrdersCtrl', ['$scope',
+	function ($scope) {
+
+	}
 ]);
