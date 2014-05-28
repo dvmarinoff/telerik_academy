@@ -9,7 +9,6 @@ body{
 	width: 800px;
 	margin: auto;
 	box-shadow: 0 0 4px 0 #999;
-
 }
 .row {
 	clear: both;
@@ -145,6 +144,7 @@ footer{
 	margin: auto;
 	height: 100px;
 }
+
 .backend-section .row div:nth-child(2){
 	width: 160px;
 }
@@ -155,15 +155,18 @@ footer{
 	margin: auto;
 	height: 80px;
 }
+
 .os-section .row div:nth-child(2){
 	width: 150px;
 }
+
 .tools-section{
 	float: left;
 	width: 50%;
 	margin: auto;
 	height: 100px;
 }
+
 .tools-section .row div:nth-child(2){
 	width: 160px;
 }
@@ -178,6 +181,7 @@ footer{
 	background-color: #f39c12;
 	border-style: none;
 }
+
 a{
 	color: #444;
 }
