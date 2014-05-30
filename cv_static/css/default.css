@@ -8,7 +8,7 @@ body{
 .wrapper{
 	width: 800px;
 	margin: auto;
-	box-shadow: 0 0 4px 0 #999;
+	/*box-shadow: 0 0 4px 0 #999;*/
 }
 .row {
 	clear: both;
@@ -59,7 +59,7 @@ footer{
 	height: 40px;
 	padding: 10px 0;
 	text-align: center;
-	color: #fff;
+	color: #18bc9c;
 	background-color: #2c3e50;
 }
 /* Front ========================================================*/
@@ -91,18 +91,44 @@ footer{
 	width: 150px;
 	height: 150px;
 	margin: auto;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;	
 	border-radius: 50%;
 	background-color: #d1d6e5;
+	background-image: url(../images/front-pic-3.png);
 }
 .contact {
 	width: 100%
 	color: #444;
 	margin: 25px 0 0 0;
 }
+.contact p {
+	display: inline-block;
+	vertical-align: middle;
+}
+.contact span{
+	display: inline-block;
+	width: 30px;
+	margin: 2px 0;
+}
+.contact img {
+	max-height: 20px;
+	margin: auto;
+	vertical-align: middle;
+}
+#phone-glyph { 
+	margin-left: 5px;
+}
+#house-glyph {
+	margin-left: 1px;
+}
+#git-glyph{
+	margin-left: 1px;
+}
 
 /* Skills ========================================================*/
 .skills {
-	color: #223;
+	color: #444;
 	background-color: #fff;
 	margin: 0 0px 10px 0px;
 	padding: 10px;
@@ -112,15 +138,18 @@ footer{
 .skills-header {
 	margin: auto;
 	padding: 10px;
+	text-align: left;
 	font-size: 1.4em;
-	color: #fff;
-	background-color: #eee;
+	color: #2c3e50;
+	background-color: #ecf0f1;
 }
 
 .icon {
 	width: 20px;
 	height: 20px;
 	background-color: #d1d6e5;
+	-webkit-border-radius: 70%;
+	-moz-border-radius: 70%;	
 	border-radius: 70%;
 }
 .skills .row  div{
@@ -144,7 +173,6 @@ footer{
 	margin: auto;
 	height: 100px;
 }
-
 .backend-section .row div:nth-child(2){
 	width: 160px;
 }
@@ -155,18 +183,15 @@ footer{
 	margin: auto;
 	height: 80px;
 }
-
 .os-section .row div:nth-child(2){
 	width: 150px;
 }
-
 .tools-section{
 	float: left;
 	width: 50%;
 	margin: auto;
 	height: 100px;
 }
-
 .tools-section .row div:nth-child(2){
 	width: 160px;
 }
@@ -179,9 +204,9 @@ footer{
 	font-size: 1.2em;
 	color: #444;
 	background-color: #f39c12;
+	text-align: center;
 	border-style: none;
 }
-
 a{
 	color: #444;
 }
@@ -201,9 +226,6 @@ a{
 #angularjs {
 	width: 100px;
 }
-#angularjs-icon{
-	
-}
 #cdotnet {
 	width: 150px;
 }
@@ -222,25 +244,27 @@ a{
 
 /* Training ========================================================*/
 .training {
-	width: 90%;
-	height: 190px;
-	margin: auto;
+	width: 100%;
+	height: 150px;
+	margin: 0;
 	padding: 10px 10px;
 	color: #444;
 	background-color: #fff;
-	border: 2px solid #eee;
+	/*border: 2px solid #ecf0f1*/
 }
 .training-header {
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	padding: 10px;
+	text-align: left;
 	font-size: 1.4em;
-	color: #fff;
-	background-color: #eee;
+	color: #2c3e50;
+	background-color: #ecf0f1;
 }
 ul{
 	float: left;
-	width: 200px;
+	width: 180px;
+	height: 80px;
 	margin: 5px 5px;
 	list-style-type:none;
 }
@@ -262,7 +286,7 @@ li{
 .philosophy{
 	float: left;
 	width: 40%;
-	height: 200px;
+	height: 180px;
 	margin: 10px 40px;
 }
 .philosophy div:first-child{
@@ -271,7 +295,9 @@ li{
 	padding: 10px;
 	text-align: center;
 	color: #444;
-	background-color: #eee;
+	background-color: #ecf0f1;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;	
 	border-radius: 10px;
 }
 .philosophy p:first-child{
@@ -285,7 +311,7 @@ li{
 	background: #fff;
 	border-left: 30px solid transparent;
 	border-right: 30px solid transparent;	
-	border-top: 40px solid #eee;
+	border-top: 40px solid #ecf0f1;
 
 }
 /* Social ========================================================*/
@@ -296,7 +322,7 @@ li{
 	margin: 10px 40px;
 	padding: 10px;
 	color: #444;;
-	background-color: #efefef;
+	background-color: #ecf0f1;
 }
 .social .row div{
 	display: inline-block;
@@ -307,7 +333,7 @@ li{
 	width: 37px;
 	height: 35px;
 	margin: 2px;
-	background: url(images/social-sprite-icons.png) repeat scroll 0% 0% transparent; 
+	background: url(../images/social-sprite-icons.png) repeat scroll 0% 0% transparent; 
 }
 .social p {
 	display: inline-block;
@@ -316,26 +342,19 @@ li{
 /* Skill Bars ========================================================*/
 .skill-bar {
 	display: inline-block;
-	width: 100px;
+	width: 200px;
 	height: 16px;
 	text-align: center;
 	font-size: 13px;
 	color: #ffffff;
-	background-color: #18BC9C;
+	background-color: #eee;
 	box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
 	transition: width 0.6s ease 0s;
 }
 .skill-bar-striped {
 	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
 	background-size: 40px 40px;
+	background-color: #18BC9C;
 }
-
-/* ========================================================*/
-
-/* ========================================================*/
-
-/* ========================================================*/
-
-/* ========================================================*/
 
 /* Group ========================================================*/
