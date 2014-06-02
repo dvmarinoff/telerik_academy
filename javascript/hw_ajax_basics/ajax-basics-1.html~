@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ajax</title>
+	<style>
+		.body{
+			font-family: Helvetica,sans-serif;
+			font-size: 100%;
+		}
+		.row{
+			margin: 1em auto;
+		}
+		.btn{
+			width: 100px;
+			height: 30px;
+			color: #fff;
+			background-color: #279;
+			border-style: none;
+		}
+		.btn:hover{
+			background-color: #268;
+		}
+		input[type="text"]{
+			width: 200px;
+			height: 20px;
+			border: 2px solid #ccc;
+		}
+		#content{
+			width: 500px;
+			min-height: 200px;
+			padding: 1em;
+			border: 3px solid rgba(99, 99, 99, .1);
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="row">
+		<button id="load" class="btn">Load</button>
+	</div>
+	<div class="row">
+		<label for="num1">Input:</label>
+		<input type="text" id="num1">
+	</div>
+	<div class="row">
+		<label for="num2">Input:</label>
+		<input type="text" id="num2">
+	</div>
+	<div class="row">
+		<button id="submit" class="btn">Submit</button>
+	</div>
+	<div class="row">
+		<div id="content"></div>
+	</div>
+
+	<script src="./lib/jquery-1.11.0.min.js"></script>
+	<script>
+	$(function () {
+		'use strict';
+
+		// example 1 - basics: 
+		$('#load').on('click', load);
+
+		function load(){
+			$.ajax({
+				url: 'http://localhost:5000/ajaxRequest.html'
+			}).done(function(data){
+				$('#content').append(data);
+			}).fail(function(){
+				console.log('error');
+			}).always(function(){
+				console.log('always');
+			});
+		}
+
+		// example 2 - GET and POST:
+		var dt = {
+			valueOne: $('#num1').val(),
+			valueTwo: $('#num2').val()
+		};
+
+		function print (output) {
+			$('#content').html(output);
+		}
+
+		$('#submit').on('click', submitNumbers);
+
+		// ajax: 
+		function submitNumbers () {
+			$.ajax({ 
+				url: 'http://localhost:5000/ajaxRequest.html'
+				type: POST,
+				data: dt,
+				dataType: 'json'
+			}).done(function(data) {
+				for(i in data) {
+					$('#content').append('<p>' + data[i].name + '</p>');
+				}
+			});
+		}
+
+
+	}());
+	</script>
+</body>
+</html>
