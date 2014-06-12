@@ -20,7 +20,7 @@
 				<div class="hello container">
 					<div>
 						<p>Hi, my name is</p>
-						<h2></h2>
+						<h2>Dimitar Marinov</h2>
 					</div>
 				</div>
 			</div>
@@ -39,19 +39,19 @@
 						<span>
 							<img src="./images/glyphicons_010_envelope.png" alt="">
 						</span>
-						<p>@gmail.com</p>
+						<p>dvmarinoff@gmail.com</p>
 					</div>
 					<div class="row">
 						<span>
 							<img src="./images/glyphicons_020_home.png" alt="" id="house-glyph"> 
 						</span>
-						<p>Sofia,</p>				
+						<p>Sofia, Triadica</p>				
 					</div>
 					<div class="row">
 						<span>
 							<img src="./images/glyphicons_163_iphone.png" alt="" id="phone-glyph"> 
 						</span>
-						<p>0885 </p>
+						<p>0885 456586</p>
 					</div>
 				</div>
 			</div>	
